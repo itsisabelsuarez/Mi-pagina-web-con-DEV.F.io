@@ -123,25 +123,51 @@
             </ol>
         </section>
 
-        
+
         <!-- FORMULARIO -->
-        <section style="background-color: white; padding: 20px; border-radius: 8px;">
-            <h2>📝 Recomiéndame algo</h2>
-            <p>¿Tienes alguna película o serie que debería ver?</p>
+<section style="background-color: white; padding: 20px; border-radius: 8px; margin-top: 20px;">
+    <h2>📝 Recomiéndame algo</h2>
+    <p>Tienes alguna película o serie que me debería ver?✨</p>
 
-            <form>
-                <label>Nombre:</label><br>
-                <input type="text" placeholder="Tu nombre"><br><br>
+    <form>
+        <!-- TEXTO -->
+        <label>Nombre:</label><br>
+        <input type="text" placeholder="Tu nombre"><br><br>
 
-                <label>Recomendación:</label><br>
-                <input type="text" placeholder="Película o serie"><br><br>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Tu correo"><br><br>
 
-                <label>Comentario:</label><br>
-                <textarea rows="4" placeholder="¿Por qué la recomiendas?"></textarea><br><br>
+        <!-- RADIO -->
+        <label>¿Qué me recomiendas ver?</label>
+        <div>
+            <label><input type="radio" name="tipo"> Película</label><br>
+            <label><input type="radio" name="tipo"> Serie</label><br>
+            <label><input type="radio" name="tipo"> Anime</label>
+        </div><br>
 
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+        <!-- CHECKBOX -->
+        <label>Género:</label>
+        <div>
+            <label><input type="checkbox"> Romance</label><br>
+            <label><input type="checkbox"> Drama</label><br>
+            <label><input type="checkbox"> Fantasía</label><br>
+            <label><input type="checkbox"> Terror</label><br>
+            <label><input type="checkbox"> Ciencia ficción</label>
+        </div><br>
+
+        <!-- FECHA -->
+        <label>¿Cuándo debería verla?</label><br>
+        <input type="date"><br><br>
+
+        <!-- COMENTARIO -->
+        <label>Comentario:</label><br>
+        <textarea rows="4" placeholder="¿Por qué la recomiendas?"></textarea><br><br>
+
+        <button type="submit">Enviar recomendación</button>
+    </form>
+
+
+</section>
 
     </main>
     
